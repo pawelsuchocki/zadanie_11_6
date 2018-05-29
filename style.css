@@ -1,0 +1,60 @@
+body {
+	font-family: 'Tajawal', sans-serif;
+}
+.kanban-title {
+	text-align: center;
+	margin: 80px 0;
+	color: #000000;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.create-column {
+	display: block;
+	margin: 60px auto;
+	padding: 15px 100px;
+	font-size: 15px;
+	color: #ffffff;
+	border: none;
+	border-radius: 6px;
+	background-color: #000000;
+	font-weight: 600;
+}
+.column {
+	border: none;
+	border-radius: 6px;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 20px;
+	margin: 0 15px;
+}
+.column-container {
+	display: flex;
+	justify-content: center;
+}
+.column-title {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.add-card {
+	padding: 5px;
+	color: #000000;
+	border: none;
+	border-radius: 4px;
+	background-color: #ffffff;
+	font-weight: 600;
+}
+.btn-delete {
+	padding: 5px;
+	color: #000000;
+	border: none;
+	border-radius: 4px;
+	background-color: #ffffff;
+	font-weight: 600;
+	margin-right: 5px;
+}
+.column-card-list {
+	list-style-type: none;
+	font-weight: 600;
+}
